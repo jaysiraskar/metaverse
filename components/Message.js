@@ -16,7 +16,7 @@ function Message({ message }) {
         <div className={`relative w-8 h-8 ${
             isUserMessage && 'order-last ml-2'
         }`}>
-            <Avatar username='message.get("username'/>
+            <Avatar username={message.get("username")}/>
         </div>
 
             <div className={`flex space-x-4 px-3 p-3 rounded-lg ${isUserMessage ? 'rounded-br-none bg-pink-300' : 'rounded-bl-none bg-blue-300'}`}>
